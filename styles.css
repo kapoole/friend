@@ -1,0 +1,306 @@
+/* GENERIC FOR ALL PAGES */
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Verdana", sans-serif;
+    font-size: 20px;
+}
+
+
+body {
+    width: 75%;
+    text-align: center;
+    margin: 16px auto;
+}
+
+img {
+    height: auto;
+}
+
+.height-test {
+    height: 1200px;
+}
+
+.border-test {
+    border: black 1px solid;
+}
+
+.border-real {
+    border: black 2px solid;
+}
+
+.bg-green {
+    background-color: #00FF00;
+}
+
+.bg-red {
+    background-color: #FF0000;
+}
+
+.bg-grey {
+    background-color: lightgray;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.text-bigger {
+    font-size: 1.5rem;
+}
+
+.bottom-border-green {
+    border-bottom: #00FF00 5px solid;
+}
+
+.bottom-border-red{
+    border-bottom: #FF0000 5px solid;
+}
+
+/* FOR LOGIN PAGE */
+#logo {
+    margin: 15px 0px;
+}
+
+#signUpMessage
+{
+    padding: 25px;
+}
+
+#signUp {
+    width: 33%;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#username {
+    padding: 12px;
+    margin: 12px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+#submit {
+    width: 20%;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.extraNotes {
+    margin-top: 50px;
+}
+
+.about {
+    padding: 15px 30px;
+    border: black 5px solid;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.about:hover {
+    background-color: #00FF00;
+}
+
+/* FOR HOME PAGE */
+
+.grid-cont {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 350px 300px 300px 100fr;
+    min-height: 1000px;
+    grid-gap: 30px;
+    justify-content: baseline
+}
+
+.grid-item {
+    background-color: #f0f2f0;
+    border-radius: 10px;
+    width: 100%;
+    align-self: center;
+    height: 100%;
+}
+
+#profile {
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+#friendList {
+    grid-column: 1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#timeline {
+    grid-column: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.profilePic {
+    height: auto;
+    border-radius: 50%;
+    width: 25%;
+}
+
+.profileTitle {
+    height: 15%;
+    width: 40%;
+}
+
+.profilePicCont {
+    height: 40%;
+    line-height: 200px;
+}
+
+
+.profileUsername {
+    height: 25%;
+}
+
+.profileLogout {
+    height: 20%;
+}
+
+.logoutButton {
+    width: 33%;
+    border: black 3px solid;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.logoutButton:hover {
+    background-color: #00ff00;
+    color: black;
+}
+
+.friendTitle {
+    width: 40%;
+}
+
+.friend {
+    height: 15%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.statusCont {
+    position: relative;
+    width: 30%;
+    height: 100%;
+}
+
+.status {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+
+.username {
+    height: 20px;
+    width: 40%;
+    
+}
+
+
+.timelineTitle {
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.friendChangeCont {
+    width: 50%;
+    margin: 10px auto;
+    display: grid;
+    height: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.specialFriendChangeCont {
+    width: 50%;
+    margin: 10px auto;
+    display: grid;
+    height: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.timeLineOne {
+    width: 80%;
+    height: 250px;
+    margin: 30px auto;
+}
+
+.statusTime {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.arrow {
+    height: 80px;
+    width: 80px;
+}
+
+.choiceCont {
+    width: 50%;
+    height: 10px;
+}
+
+.choiceButton {
+    width: 33%;
+    border: black 3px solid;
+    padding: 10px;
+    margin: 0 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.abuseEndingMessage {
+    position: absolute;
+    left: 41%;
+    top: 30vh;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.abuseEndingButton {
+    padding: 15px 40px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+/* FOR ABOUT PAGE */
+
+.aboutMain {
+    width: 60%;
+}
+
+
